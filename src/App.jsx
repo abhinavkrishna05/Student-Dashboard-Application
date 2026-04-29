@@ -5,11 +5,11 @@ import AddStudentForm from "./Components/AddStudentForm";
 import "./App.css";
 
 const initialStudents = [
-  { id: 1, name: "Aarav Sharma", score: 78 },
-  { id: 2, name: "Priya Mehta", score: 34 },
-  { id: 3, name: "Rohan Verma", score: 55 },
-  { id: 4, name: "Sneha Iyer", score: 90 },
-  { id: 5, name: "Kabir Singh", score: 22 },
+  { id: 1, name: "Pulkit", score: 78 },
+  { id: 2, name: "Abhinav", score: 34 },
+  { id: 3, name: "Vaibhav", score: 55 },
+  { id: 4, name: "Sneha", score: 90 },
+  { id: 5, name: "Kabir", score: 22 },
 ];
 
 const App = () => {
@@ -41,10 +41,10 @@ const App = () => {
           <div className="stat-card">
             <div className="stat-icon-box stat-icon-box--blue">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-                <circle cx="9" cy="7" r="4"/>
-                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
-                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
               </svg>
             </div>
             <div className="stat-info">
@@ -56,7 +56,7 @@ const App = () => {
           <div className="stat-card">
             <div className="stat-icon-box stat-icon-box--green">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                <polyline points="20 6 9 17 4 12"/>
+                <polyline points="20 6 9 17 4 12" />
               </svg>
             </div>
             <div className="stat-info">
@@ -68,8 +68,8 @@ const App = () => {
           <div className="stat-card">
             <div className="stat-icon-box stat-icon-box--red">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                <line x1="18" y1="6" x2="6" y2="18"/>
-                <line x1="6" y1="6" x2="18" y2="18"/>
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
             </div>
             <div className="stat-info">
@@ -81,9 +81,9 @@ const App = () => {
           <div className="stat-card">
             <div className="stat-icon-box stat-icon-box--purple">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <line x1="18" y1="20" x2="18" y2="10"/>
-                <line x1="12" y1="20" x2="12" y2="4"/>
-                <line x1="6" y1="20" x2="6" y2="14"/>
+                <line x1="18" y1="20" x2="18" y2="10" />
+                <line x1="12" y1="20" x2="12" y2="4" />
+                <line x1="6" y1="20" x2="6" y2="14" />
               </svg>
             </div>
             <div className="stat-info">
