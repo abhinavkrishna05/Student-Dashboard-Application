@@ -1,4 +1,4 @@
-📊 Student Dashboard Application
+📊 Student Dashboard Application:
 A simple and responsive React-based dashboard to manage student records with basic CRUD functionality.
 
 🚀 Live Demo
