@@ -5,11 +5,11 @@ import AddStudentForm from "./Components/AddStudentForm";
 import "./App.css";
 
 const initialStudents = [
-  { id: 1, name: "Pulkit", score: 78 },
+  { id: 1, name: "Hardik", score: 78 },
   { id: 2, name: "Abhinav", score: 34 },
-  { id: 3, name: "Vaibhav", score: 55 },
-  { id: 4, name: "Sneha", score: 90 },
-  { id: 5, name: "Kabir", score: 22 },
+  { id: 3, name: "Anshika", score: 55 },
+  { id: 4, name: "Tanush", score: 90 },
+  { id: 5, name: "Aditi", score: 22 },
 ];
 
 const App = () => {
